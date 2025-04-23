@@ -39,9 +39,9 @@ cd <repository-directory>
 Navigate to the project directory and compile the source files:
 
 ```bash
-javac src/main/java/assignment02/Server.java
-javac src/main/java/assignment02/Client.java
-javac src/main/java/assignment02/FolderConfigPanel.java
+javac src/main/java/fileSharingSystem/Server.java
+javac src/main/java/fileSharingSystem/Client.java
+javac src/main/java/fileSharingSystem/FolderConfigPanel.java
 ```
 
 #### 3. Start the Server
@@ -51,13 +51,13 @@ The server must be running before starting the client. Follow these steps:
 3. Run the server with the path to the shared folder as an argument:
 
 ```bash
-java -cp src/main/java assignment02.Server <path_to_shared_folder>
+java -cp src/main/java fileSharingSystem.Server <path_to_shared_folder>
 ```
 
 Example:
 
 ```bash
-java -cp src/main/java assignment02.Server /Users/username/shared
+java -cp src/main/java fileSharingSystem.Server /Users/username/shared
 ```
 4. Once the server starts successfully, you should see the following output in the terminal:
 ```bash
@@ -68,13 +68,13 @@ Server started on port 1234
 Run the client with the server's hostname and the local folder path as arguments:
 
 ```bash
-java -cp src/main/java assignment02.Client <server_host> <local_folder_path>
+java -cp src/main/java fileSharingSystem.Client <server_host> <local_folder_path>
 ```
 
 Example:
 
 ```bash
-java -cp src/main/java assignment02.Client localhost /Users/username/local
+java -cp src/main/java fileSharingSystem.Client localhost /Users/username/local
 ```
 ##### -> A graphical user interface (GUI) will appear with two lists:
 - **Left List**: Displays files in the local shared folder.

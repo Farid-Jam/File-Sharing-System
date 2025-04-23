@@ -137,3 +137,6 @@ Both the client and server include durable error handling to ensure smooth opera
 - **Java NIO**: For file and directory operations.
 - **Java Sockets**: For client-server communication.
 
+## Collaboraters
+- Abdullah Mustafa
+- Samir Ahmadi
